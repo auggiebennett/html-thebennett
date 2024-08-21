@@ -1,0 +1,78 @@
+body {
+  position: absolute;
+  background-image: url(./images/background.png);
+  background-origin: initial;
+  background-size: cover;
+}
+
+header {
+  position: relative;
+  margin-left: 5%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  margin-top: 10%;
+  font-family: GFS Didot;
+  font-size: 96px;
+}
+
+h3 {
+  margin-top: -10%;
+  color: white;
+  font-family: GFS Didot;
+  font-size: 48px;
+}
+
+.portfolio-links {
+  position: relative;
+  color: white;
+  font-family: GFS Didot;
+  font-size: 48px;
+  margin-top: 10%;
+  margin-bottom: -7%;
+  margin-left: 20%;
+  width: 600px;
+}
+
+.portfolio-links:hover {
+  position: relative;
+  color: black;
+  font-family: GFS Didot;
+  font-size: 48px;
+  margin-top: 10%;
+  margin-bottom: -7%;
+  margin-left: 20%;
+  width: 600px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.portfolio-links:hover .arrow {
+  content: url(./images/right-black.png);
+}
+
+.portfolio-links-text {
+  text-decoration: none;
+  color: inherit;
+  text-decoration-color: white;
+}
+
+.arrow {
+  content: url(./images/right-white.png);
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  position: relative;
+  float: right;
+  height: 30px;
+  top: 10;
+  bottom: 10;
+  transition: 0.3s;
+}
+
+hr {
+  color: inherit;
+  margin-top: -10%;
+  width: inherit;
+}
