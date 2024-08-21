@@ -1,8 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+}
+
 body {
   position: absolute;
+  width: auto;
   background-image: url(./images/background.png);
-  background-origin: initial;
   background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
 }
 
 header {
